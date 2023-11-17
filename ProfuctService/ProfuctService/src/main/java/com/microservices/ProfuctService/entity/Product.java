@@ -1,12 +1,16 @@
 package com.microservices.ProfuctService.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Entity
 @Data
 @Table(name = "product")
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product
 {
     @Id
