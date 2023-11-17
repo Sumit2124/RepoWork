@@ -1,6 +1,7 @@
 package com.microservices.ProfuctService.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +12,7 @@ import javax.persistence.*;
 @Table(name = "product")
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Product
 {
     @Id
